@@ -9,7 +9,7 @@ def garden_operations(operation_number: int) -> None:
     elif operation_number == 2:
         open('/void/nop/zero')
     elif operation_number == 3:
-        operation_number ** "dogs"
+        operation_number ** "dogs"  # type: ignore[operator]
     return
 
 
